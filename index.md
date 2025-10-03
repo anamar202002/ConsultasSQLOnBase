@@ -502,7 +502,8 @@ Este reporte, disponible en Unity, permite visualizar un listado de las áreas i
 - Consultar una tabla detallada con toda la información relevante para análisis o exportación.
 
 #### Ejemplo del reporte:
-![Reporte](image.png)
+<img width="1916" height="821" alt="image" src="https://github.com/user-attachments/assets/fb32f715-1e02-42c3-b419-eb491fe34c7d" />
+
 
 #### Consulta para obtener las áreas:
 ```sql
@@ -550,8 +551,10 @@ Este reporte, disponible en Unity, permite visualizar un listado de las áreas i
 - Analizar cuánta correspondencia tiene determinados destinatarios.
 - Consultar una tabla detallada con toda la información relevante para análisis o exportación de la correspondencia de salida.
 #### Ejemplo del reporte:
-![parametros](image-1.png)
-![reporte](image-2.png)
+<img width="560" height="681" alt="image-1" src="https://github.com/user-attachments/assets/c46b9b0a-298f-4782-a890-693c7785634f" />
+
+<img width="1915" height="801" alt="image-2" src="https://github.com/user-attachments/assets/f3c3b046-9c35-4b4e-a5ab-0dbe3b88e262" />
+
 
 #### Consulta:
 ```sql

@@ -134,8 +134,7 @@
 			- [Consulta:](#consulta-35)
 
 ## Introducción
-El presente documento va a estar dividido según categorías o áreas
-
+El presente documento va a estar dividido según categorías o áreas donde se mostrarán diferentes consultas realizadas con SQL para la base de datos de OnBase
 ## Consultas de expedientes:
 ### Consulta migración expedientes y su primer tomo:
 Realiza la consulta de TODOS los expedientes con los campos existentes con su primer tomo

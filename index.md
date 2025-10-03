@@ -502,8 +502,7 @@ Este reporte, disponible en Unity, permite visualizar un listado de las áreas i
 - Consultar una tabla detallada con toda la información relevante para análisis o exportación.
 
 #### Ejemplo del reporte:
-<img width="1916" height="821" alt="image" src="https://github.com/user-attachments/assets/fb32f715-1e02-42c3-b419-eb491fe34c7d" />
-
+![Reporte](image.png)
 
 #### Consulta para obtener las áreas:
 ```sql
@@ -551,10 +550,8 @@ Este reporte, disponible en Unity, permite visualizar un listado de las áreas i
 - Analizar cuánta correspondencia tiene determinados destinatarios.
 - Consultar una tabla detallada con toda la información relevante para análisis o exportación de la correspondencia de salida.
 #### Ejemplo del reporte:
-<img width="560" height="681" alt="image-1" src="https://github.com/user-attachments/assets/c46b9b0a-298f-4782-a890-693c7785634f" />
-
-<img width="1915" height="801" alt="image-2" src="https://github.com/user-attachments/assets/f3c3b046-9c35-4b4e-a5ab-0dbe3b88e262" />
-
+![parametros](image-1.png)
+![reporte](image-2.png)
 
 #### Consulta:
 ```sql
@@ -1485,10 +1482,60 @@ where year(attr1053) >= 1997
 ### Documentos vitales
 Se obtiene información de los documentos vitales con su respectivo path para su descarga, codificación, nombre, expediente y fecha de almacenamiento.
 Es importante aclarar que en esta consulta NO se tienen en cuenta los SADE y viene con los números de expediente que me brindaron en su momento
-#### Ejemplo de la consulta:
-itemnum|itemname|datestored|itemdate|CodExpediente|fullpath|itemnum|kg167|kg166|kg168|kg102|kg171|kg103|kg374|kg193|kg169|kg141|kg435|filesize
--|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
-850806|<b></b><g></g><r></r> [02-2000-003-39] - <A>17540</A> Acta de Junta Directiva - 2015 ACTAS DE JUNTA DIRECTIVA FOGAFÍN SESIÓN 23 JUNIO 2015- 453 - 201506 - ACTA DE JUNTA DIRECTIVA SESION JUNIO 23 DE 2015 |2017-09-15 17:35:27.753|2015-06-23 00:00:00.000|17540|\\VM-ONBASE2-PRD\OnBase$\SGR2000\V1\0\292226.pdf|850806|02-2000 |SUBDIRECCION CORPORATIVA|02-2000-003|ACTAS |02-2000-003-39 |ACTAS DE JUNTA DIRECTIVA|02-2000-003-39-59 |ACTA|17540|2015 ACTAS DE JUNTA DIRECTIVA FOGAFÍN SESIÓN 23 JUNIO 2015|02 |2344820
+#### Ejemplo de la consulta:<table>
+<thead>
+<tr>
+<th>itemnum</th>
+<th>itemname</th>
+<th>datestored</th>
+<th>itemdate</th>
+<th>CodExpediente</th>
+<th>fullpath</th>
+<th>itemnum</th>
+<th>kg167</th>
+<th>kg166</th>
+<th>kg168</th>
+<th>kg102</th>
+<th>kg171</th>
+<th>kg103</th>
+<th>kg374</th>
+<th>kg193</th>
+<th>kg169</th>
+<th>kg141</th>
+<th>kg435</th>
+<th>filesize</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>850806</td>
+<td><b></b><g></g><r></r> [02-2000-003-39] - <A>17540</A> Acta de Junta Directiva - 2015 ACTAS DE JUNTA DIRECTIVA FOGAFÍN SESIÓN 23 JUNIO 2015- 453 - 201506 - ACTA DE JUNTA DIRECTIVA SESION JUNIO 23 DE 2015</td>
+<td>2017-09-15 17:35:27.753</td>
+<td>2015-06-23 00:00:00.000</td>
+<td>17540</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>VM-ONBASE2-PRD</td>
+</tr>
+<tr>
+<td>OnBase$</td>
+</tr>
+<tr>
+<td>SGR2000</td>
+</tr>
+<tr>
+<td>V1</td>
+</tr>
+<tr>
+<td>0</td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>
+292226.pdf|850806|02-2000 |SUBDIRECCION CORPORATIVA|02-2000-003|ACTAS |02-2000-003-39 |ACTAS DE JUNTA DIRECTIVA|02-2000-003-39-59 |ACTA|17540|2015 ACTAS DE JUNTA DIRECTIVA FOGAFÍN SESIÓN 23 JUNIO 2015|02 |2344820
 850808|<b></b><g></g><r></r> [02-2000-003-39] - <A>17539</A> Acta de Junta Directiva - 2015 ACTAS DE JUNTA DIRECTIVA FOGAFÍN SESIÓN 20 MAYO 2015- 452 - 201505 - ACTA DE JUNTA DIRECTIVA SESION MAYO 20 DE 2015 |2017-09-15 17:39:07.923|2015-05-20 00:00:00.000|17539|\\VM-ONBASE2-PRD\OnBase$\SGR2000\V1\0\292229.pdf|850808|02-2000 |SUBDIRECCION CORPORATIVA|02-2000-003|ACTAS |02-2000-003-39 |ACTAS DE JUNTA DIRECTIVA|02-2000-003-39-59 |ACTA|17539|2015 ACTAS DE JUNTA DIRECTIVA FOGAFÍN SESIÓN 20 MAYO 2015 |02 |3081702
 850809|<b></b><g></g><r></r> [02-2000-003-39] - <A>17538</A> Acta de Junta Directiva - 2015 ACTAS DE JUNTA DIRECTIVA FOGAFÍN SESIÓN 22 ABRIL 2015- 451 - 201504 - ACTA DE JUNTA DIRECTIVA SESION ABRIL 22 DE 2015 |2017-09-15 17:41:02.057|2015-04-22 00:00:00.000|17538|\\VM-ONBASE2-PRD\OnBase$\SGR2000\V1\0\292230.pdf|850809|02-2000 |SUBDIRECCION CORPORATIVA|02-2000-003|ACTAS |02-2000-003-39 |ACTAS DE JUNTA DIRECTIVA|02-2000-003-39-59 |ACTA|17538|2015 ACTAS DE JUNTA DIRECTIVA FOGAFÍN SESIÓN 22 ABRIL 2015|02 |2292084
 #### Consulta:
